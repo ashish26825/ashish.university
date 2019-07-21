@@ -1,0 +1,277 @@
+body {
+    background: rgb(221, 213, 213);
+}
+
+
+
+.nav {
+    background-color: rgb(42, 67, 179);
+    
+    
+    
+
+
+
+}
+
+.cal {
+
+margin-left: 70px;
+margin-top:30px;
+font-size: 20px;
+color:white;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 35px;
+    color:red;
+    font-display: bold;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    
+    
+
+}
+
+.menu {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: rgb(54, 83, 161);
+    display:inline-block;
+    position:relative;
+    width: 100%;
+    color:white;
+    font-size: 20px;
+}
+
+ul{
+    margin: 0;;
+    padding:0;
+    list-style-type:none;
+     
+}
+li{
+    display:inline-block;
+    margin:30px 80px 30px 30px;
+    
+}
+li:hover{
+    background: black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.about {
+    color:rgb(10, 10, 10);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.ab {
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    font-display: bold;
+
+}
+.container {
+   width: 100%;
+}
+
+
+.features {
+    background: white;
+    color: rgb(12, 5, 5);
+    padding:20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+}  
+
+.features figure{
+   
+    margin:auto;
+    width:200px;
+    text-align: center;
+    text-transform: uppercase;
+   
+    
+}
+.features figure img {
+   border: 1px solid white;
+    width:250px;
+  
+    box-shadow: rgb(185, 184, 184) 0 0  10px 4px;
+}
+
+.det {
+    text-align: center ;
+    color: rgb(9, 9, 14);
+    align-content: left;
+    font-size: 20px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border: 1px solid black;
+   
+  } 
+
+  .im {
+      margin-left: 15px;
+
+  }
+
+  .abimg {
+      width: 447px;
+      height: 200px;
+      margin-left: 5px;
+  }
+
+  .logo {
+    background-image:url("logo.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    display:inline-block;
+    height:150px;
+    text-indent:-999999px;
+    width:150px;
+    
+    
+    position:relative;
+    border-radius: 50%;
+    box-shadow: rgb(52, 92, 226) 0 0  10px 4px;
+    
+right:50px;
+left: 5px;
+bottom: 5px;
+
+
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  /* Style the buttons */
+ 
+ 
+ 
+
+  
+  table, th, td {
+    border: 1px solid white;
+    padding: 15px;
+  }
+  
+  table {
+    width: 100%;
+    color: rgb(8, 8, 8);
+    background-color:rgb(112, 145, 236);
+
+    
+  }
+
+  .cont {
+      font-size: 15px;
+  }
+
+  .copy {
+      text-align: center;
+      
+  }
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+ 
+ 
+  .abcd {
+      font-size: 15px;
+      
+  }
+
+  .blg {
+      width: 1400px;
+      height: 300px;
+  }
+ 
+ .qwert {
+     font-size: 25px;
+     background: rgb(250, 250, 252);
+     color: antiquewhite;
+     font-weight: 600;
+
+ }
+
+ .navbar-light .navbar-nav .nav-link {
+    color: rgba(2, 2, 2, 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(245, 241, 241, 0.7);
+    
+}
+.navbar-light .navbar-nav {
+    background: rgb(84, 84, 216);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.sizz {
+width: 500px;
+height: 300px;
+}
+
+.ashu {
+    font-size: 15px;
+}
+
+.navno {
+    font-size: 20px;
+    font-display: bold;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+
+.cnt {
+    text-align: right;
+    padding:20px;
+    color: blanchedalmond;
+}
+.ddd {
+    color: black;
+}
